@@ -1,0 +1,105 @@
+:root {
+  --red: #ea5454;
+  --cyan: #44d3d2;
+  --orange: #fcae4a;
+  --blue: #549ef2;
+  --very_dark_blue: #4d4f62;
+  --very_light_gray: #fafafa;
+}
+
+.poppins-extralight {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* ----------------------------------------------------- */
+
+body {
+  background-color: var(--very_light_gray);
+  color: var(--very_dark_blue);
+  margin-block: 80px;
+  margin-inline: auto;
+  max-width: 1110px;
+  min-height: 762px;
+}
+h1,
+header p {
+  text-align: center;
+}
+h1 {
+  margin-block-end: 13px;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+header > p {
+  width: 540px;
+  height: 50px;
+  margin-inline: auto;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.104px;
+}
+header {
+  margin-block-end: 64px;
+}
+
+/* ------------------------------------------- */
+
+main {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  padding: 32px;
+  margin-block-end: 30px;
+  border-top: 4px solid #44d3d2;
+  background-image: url(./images/icon-supervisor.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 32px right 32px;
+  
+
+  h2 {
+    font-size: 20px;
+    line-height: normal;
+    margin-block-end: 6px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    text-wrap: stable;
+  }
+}
+.calc {
+    border-top-color: var(--blue);
+    background-image: url(./images/icon-calculator.svg);
+}
+.team {
+    border-top-color: var(--red);
+    background-image: url(./images/icon-team-builder.svg);
+}
+.karma {
+    border-top-color: var(--orange);
+    background-image: url(./images/icon-karma.svg);
+}
