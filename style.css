@@ -84,6 +84,7 @@ h1 {
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.25px;
+    opacity: 1;
   }
 }
 header > p {
